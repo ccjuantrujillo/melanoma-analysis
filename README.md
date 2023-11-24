@@ -7,8 +7,13 @@ sudo apt update
 sudo apt install python3
 sudo apt install python3-pip
 ```
+Clonamos el repositorio:
+```bash
+sudo apt install git
+git clone https://github.com/ccjuantrujillo/melanoma-analysis.git
+```
 
-Create virutal environment:
+Create virtual environment:
 
 ```bash
 sudo apt install python3.10-venv
