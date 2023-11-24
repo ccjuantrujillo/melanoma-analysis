@@ -30,14 +30,17 @@ Install the requirements:
 
 ```bash
 pip install Flask
+pip install requests
 pip install python-dotenv
 pip install Flask-CORS
 
 ```
 
-Run the application:
+Publis the application:
 
 ```bash
-python3 app.py
+pip3 install gunicorn
+gunicorn -w 4 -b 0.0.0.0:5000 app:app
+
 ```
 
