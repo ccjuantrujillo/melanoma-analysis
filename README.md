@@ -36,7 +36,7 @@ pip install Flask-CORS
 
 ```
 
-Publis the application:
+Publish the application:
 
 ```bash
 pip3 install gunicorn
@@ -44,3 +44,9 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 
 ```
 
+Detener el servicio:
+
+```bash
+pkill gunicorn
+
+```
