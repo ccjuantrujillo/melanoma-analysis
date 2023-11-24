@@ -3,8 +3,10 @@ from random import sample
 from werkzeug.utils import secure_filename
 import os
 from melanoma import Melanoma as Melanoma
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
