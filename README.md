@@ -26,6 +26,7 @@ Install the requirements:
 ```bash
 pip install Flask
 pip install python-dotenv
+pip install Flask-CORS
 
 ```
 
